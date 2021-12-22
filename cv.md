@@ -10,12 +10,11 @@
 
 ***
 ## **About Me**
-
+Before the maternity leave my field of activity was Foreign trade. But now my goal is to try myself in completely new profession, Frond-End Developer, as I feel I could fulfil my potential here and there is no limits for development and growth in this field. 
 ### Key features:
 * responsible, honest
 * self-motivated
-* keen to learn new things and work on challenging
-tasks
+* keen to learn new things and work on challenging tasks
 ***
 ## **Skills**
 * HTML5
