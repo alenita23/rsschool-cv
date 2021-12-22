@@ -10,11 +10,12 @@
 
 ***
 ## **About Me**
-Before the maternity leave my field of activity was Foreign trade. But now my goal is to try myself in completely new profession, Frond-End Developer, as I feel I could fulfil my potential here and there is no limits for development and growth in this field. 
+Before the maternity leave my field of activity was Foreign trade. But now my goal is to try myself in completely new profession, Frond-End Developer, as I feel I could fulfil my potential here and there is no limits for development and growth in this field.
 ### Key features:
 * responsible, honest
 * self-motivated
 * keen to learn new things and work on challenging tasks
+
 ***
 ## **Skills**
 * HTML5
@@ -22,6 +23,7 @@ Before the maternity leave my field of activity was Foreign trade. But now my go
 * Git, GitHub
 * VS Code
 * Adobe Photoshop, Figma
+
 ***
 ## **Code example**
 ```
@@ -36,6 +38,7 @@ return a * b
     + Udemy "WEB-developer 2021" (in progress)
     + RS School «JavaScript/Front-end. Stage 0» (in progress)
     + JavaScript https://learn.javascript.ru/ (in progress)
+
 ***
 ## **Languages**
 * English - Advanced (88% according to the online-test  www.efset.org.)
