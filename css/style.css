@@ -73,7 +73,7 @@ header {
 @media (max-width: 768px) {
   .section {
     width: 100%;
-  }
+}
 }
 
 .section-title {
@@ -118,7 +118,6 @@ header {
 }
 
 .footer {
-
   background-color: rgba(119,221,231,0.4);
 }
 
