@@ -10,7 +10,7 @@
 
 ***
 ## **About Me**
-Before the maternity leave my field of activity was Foreign trade. But now my goal is to try myself in completely new profession, Frond-End Developer, as I feel I could fulfil my potential here and there is no limits for development and growth in this field.
+I've gained education in the field of Economy and Foreign trade activities, worked as Foreign trade specialist. But now my goal is to try myself in completely new profession, Frond-End Development. And I have to say I feel quite enthusiastic about it, I enjoy the process of learning a lot! The fact that there is no limits for development and growth in this field, that you have to study constantly is inspiring, I missed those things at my previous work place.
 ### Key features:
 * responsible, honest
 * self-motivated
@@ -27,21 +27,34 @@ Before the maternity leave my field of activity was Foreign trade. But now my go
 ***
 ## **Code example**
 ```
-function multiply (a, b) {
-return a * b
+function changeImage(event) {
+  if(event.target.classList.contains('black-button')) {
+    portfolioImages.forEach((img, index) => img.src = `./assets/img/${event.target.dataset.season}/${index + 1}.jpg`);
+    portfolioBtn.forEach((btn) => btn.classList.remove('active'));
+    event.target.classList.add('active');
+  }
 }
+portfolioBtns.addEventListener('click', changeImage);
 ```
 ***
 ## **Education**
 * University Digree: Belarusian National Economic University, Foreign economic Activity
 * Courses:
+    + RS School «JavaScript/Front-end. Stage 0»
+    + RS School «JavaScript/Front-end. Stage 1» (in progress)
     + Udemy "WEB-developer 2021" (in progress)
-    + RS School «JavaScript/Front-end. Stage 0» (in progress)
     + JavaScript https://learn.javascript.ru/ (in progress)
 
 ***
+## **Work experience and Projects**
+I don't have work experience in front-end development yet. But there are some study projects:
+* https://rolling-scopes-school.github.io/alenita23-JSFEPRESCHOOL/portfolio/
+* https://rolling-scopes-school.github.io/alenita23-JSFEPRESCHOOL/eco-sounds/
+
+***
 ## **Languages**
-* English - Advanced (88% according to the online-test  www.efset.org.)
+* English - Advanced (94% according to the online-test at www.efset.org.)
 Had great English practise when participated in Work&Travel Programm and worked in NY, USA.
 * Russian - Native
+* Belarusian - Native
 * Spanish - Basic
