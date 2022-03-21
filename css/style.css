@@ -209,7 +209,8 @@ p {
     gap: 20px;
   }
   .my_photo {
-    margin-right: 300px;
+    width: 760px;
+    /*margin-right: 300px;*/
   }
 
  }
