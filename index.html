@@ -26,30 +26,19 @@
           </nav>
       </div>
    </header>
+
    <main class="main">
-      <div class="container">
-         <section class="section section-profile" id="profile">
-            <img src="img/zaitsava_elena_CV.jpg" alt="my photo" class="my-photo" width="190" height="220">
-            <div class="section-profile-title"><h1 class="section-title main-title">Elena Zayceva</h1></div>
-         </section>
-         <div class="main-container">
-         <section class="section" id="contacts">
+
+      <div class="main_side">
+      <div class="sidebar">
+          <div class="my_photo"><img src="img/zaitsava_elena_CV.jpg" alt="my photo" class="my-photo" width="190" height="220"></div>
+          <section class="section" id="contacts">
             <h2 class="section-title">Contact information</h2>
             <ul class="section-list">
                <li class="section-item"><em>Location:</em> Minsk, Belarus</li>
                <li class="section-item"><em>Tel.:</em> +375(29)377-98-08</li>
                <li class="section-item"><em>E-mail:</em> <a class="link" href="mailto:alenita.zayceva@gmail.com" title="email">alenita.zayceva@gmail.com</a></li>
                <li class="section-item"><em>Discord:</em> <a class="link" href="https://discord.com/channels/@me" target="_blank">alenita23</a></li>
-            </ul>
-         </section>
-         <section class="section" id="aboutme">
-            <h2 class="section-title">About me</h2>
-            <p>I've gained education in the field of Foreign economic activities, worked as Foreign trade specialist. But now my goal is to try myself in completely new profession, Frond-End Development. And I have to say I feel quite enthusiastic about it, I enjoy the process of learning a lot! The fact that there is no limits for development and growth in this field, that you have to study constantly is inspiring, I missed those things at my previous work place.</p>
-            <h3 class="section-subtitle">Key features</h3>
-            <ul class="section-list">
-               <li class="section-item">responsible, honest</li>
-               <li class="section-item">self-motivated</li>
-               <li class="section-item">keen to learn new things and work on challenging tasks</li>
             </ul>
          </section>
          <section class="section" id="skills">
@@ -62,20 +51,33 @@
                <li class="section-item">Adobe Photoshop, Figma</li>
             </ul>
          </section>
+      </div>
+
+      <div class="main_content">
+         <div class="main-title">
+            <h1 class="main-title">Elena Zayceva</h1>
+            <h2 class="main-subtitle">Trainee/Junior Frontend Developer</h2>
+         </div>
+         <section class="section" id="aboutme">
+            <h2 class="section-title">About me</h2>
+            <p>I've gained education in the field of Foreign economic activities, worked as Foreign trade specialist. But now my goal is to try myself in completely new profession, Frond-End Development. And I have to say I feel quite enthusiastic about it, I enjoy the process of learning a lot! The fact that there is no limits for development and growth in this field, that you have to study constantly is inspiring, I missed those things at my previous work place.</p>
+            <h3 class="section-subtitle">Key features</h3>
+            <ul class="section-list">
+               <li class="section-item">responsible, honest</li>
+               <li class="section-item">self-motivated</li>
+               <li class="section-item">keen to learn new things and work on challenging tasks</li>
+            </ul>
+         </section>
+
          <section class="section" id="code">
             <h2 class="section-title">Code example</h2>
             <pre><code>
-               function changeImage(event) {
-                  if(event.target.classList.contains('black-button')) {
-                    portfolioImages.forEach((img, index) =>
-                      img.src = `./assets/img/${event.target.dataset.season}/${index + 1}.jpg`);
-                    portfolioBtn.forEach((btn) => btn.classList.remove('active'));
-                    event.target.classList.add('active');
-                  }
-                }
-                portfolioBtns.addEventListener('click', changeImage);
+               function digits(n) {
+                 return n.toString().length;
+               }
             </code></pre>
          </section>
+
          <section class="section" id="education">
             <h2 class="section-title">Education</h2>
             <ul class="section-list">
@@ -89,6 +91,7 @@
                  </ul></li>
             </ul>
          </section>
+
          <section class="section" id="projects">
             <h2 class="section-title">Work experience and Projects</h2>
             <p>I don't have work experience in front-end development yet. But there are some study projects:</p>
@@ -97,6 +100,7 @@
                <li class="section-item"><a class="link" target="_blank" href="https://rolling-scopes-school.github.io/alenita23-JSFEPRESCHOOL/eco-sounds/">Eco-sounds, RSS project</a></li>
             </ul>
          </section>
+
          <section class="section" id="lang">
             <h2 class="section-title">Languages</h2>
             <ul class="section-list">
@@ -108,10 +112,11 @@
             </ul>
          </section>
          </div>
-      </div>
+         </div>
    </main>
+
    <footer class="footer">
-      <div class="container footer-container">
+      <div class="footer-container">
          <div>© 2022 <a class="link" href="https://github.com/alenita23">alenita23</a></div>
       <a href="https://rs.school/js/" class="rss"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool" width="100" height="70"></a>
       </div>

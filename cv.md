@@ -27,14 +27,9 @@ I've gained education in the field of Economy and Foreign trade activities, work
 ***
 ## **Code example**
 ```
-function changeImage(event) {
-  if(event.target.classList.contains('black-button')) {
-    portfolioImages.forEach((img, index) => img.src = `./assets/img/${event.target.dataset.season}/${index + 1}.jpg`);
-    portfolioBtn.forEach((btn) => btn.classList.remove('active'));
-    event.target.classList.add('active');
-  }
+function digits(n) {
+  return n.toString().length;
 }
-portfolioBtns.addEventListener('click', changeImage);
 ```
 ***
 ## **Education**
