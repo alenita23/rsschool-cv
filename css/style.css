@@ -138,6 +138,10 @@ p {
    transition: color 0.5s;
  }
 
+ .link-project {
+   text-decoration: underline;
+ }
+
  .link:hover {
    color: #0095B6;
  }
