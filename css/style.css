@@ -167,26 +167,18 @@ p {
    align-items: center;
    padding: 0 10px;
  }
+ 
  @media (max-width: 815px) {
-    body {
-       font-size: 15px;
-    }
-    .main {
-       width: 100%;
-    }
- }
-
- @media (max-width: 768px) {
    body {
     font-size: 14px;
     width: 100%;
-    max-width: 768px;
+    max-width: 815px;
    }
    .nav-list {
      line-height: 30px;
    }
    .main_side {
-    max-width: 768px;
+    max-width: 815px;
     flex-wrap: wrap;
   }
 
@@ -206,7 +198,7 @@ p {
      font-size: 14px;
    }
    .sidebar {
-    max-width: 768px;
+    max-width: 815px;
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
