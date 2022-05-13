@@ -167,6 +167,14 @@ p {
    align-items: center;
    padding: 0 10px;
  }
+ @media (max-width: 815px) {
+    body {
+       font-size: 15px;
+    }
+    .main {
+       width: 100%;
+    }
+ }
 
  @media (max-width: 768px) {
    body {
